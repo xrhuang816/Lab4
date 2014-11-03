@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="paxos" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/paxos" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/paxos" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Makefile" />
+		<Unit filename="args.cpp" />
+		<Unit filename="args.d" />
+		<Unit filename="args.h" />
+		<Unit filename="args.o" />
+		<Unit filename="dssim.cpp" />
+		<Unit filename="dssim.d" />
+		<Unit filename="dssim.h" />
+		<Unit filename="dssim.o" />
+		<Unit filename="getopt_pp.o" />
+		<Unit filename="getoptpp/examples/example_env.cpp" />
+		<Unit filename="getoptpp/examples/example_extendingtypes_date.cpp" />
+		<Unit filename="getoptpp/examples/example_formatflags.cpp" />
+		<Unit filename="getoptpp/examples/example_general1.cpp" />
+		<Unit filename="getoptpp/examples/example_global_option.cpp" />
+		<Unit filename="getoptpp/examples/example_helloworld.cpp" />
+		<Unit filename="getoptpp/examples/example_helloworld_ex.cpp" />
+		<Unit filename="getoptpp/examples/example_iterators.cpp" />
+		<Unit filename="getoptpp/examples/example_nomanip.cpp" />
+		<Unit filename="getoptpp/examples/example_nomanip_ex.cpp" />
+		<Unit filename="getoptpp/getoptpp/getopt_pp.h" />
+		<Unit filename="getoptpp/getoptpp/getopt_pp_standalone.h" />
+		<Unit filename="getoptpp/src/getopt_pp.cpp" />
+		<Unit filename="getoptpp/tests/format_test.cpp" />
+		<Unit filename="getoptpp/tests/simpleoptions_test.cpp" />
+		<Unit filename="log.cpp" />
+		<Unit filename="log.d" />
+		<Unit filename="log.h" />
+		<Unit filename="log.o" />
+		<Unit filename="main.cpp" />
+		<Unit filename="main.d" />
+		<Unit filename="main.o" />
+		<Unit filename="make_unique.h" />
+		<Unit filename="massert.h" />
+		<Unit filename="md5.cpp" />
+		<Unit filename="md5.d" />
+		<Unit filename="md5.h" />
+		<Unit filename="md5.o" />
+		<Unit filename="net.cpp" />
+		<Unit filename="net.d" />
+		<Unit filename="net.h" />
+		<Unit filename="net.o" />
+		<Unit filename="node.cpp" />
+		<Unit filename="node.d" />
+		<Unit filename="node.h" />
+		<Unit filename="node.o" />
+		<Unit filename="parse_regex.cpp" />
+		<Unit filename="pax" />
+		<Unit filename="paxclient.cpp" />
+		<Unit filename="paxclient.d" />
+		<Unit filename="paxclient.h" />
+		<Unit filename="paxclient.o" />
+		<Unit filename="paxlog.cpp" />
+		<Unit filename="paxlog.d" />
+		<Unit filename="paxlog.h" />
+		<Unit filename="paxlog.o" />
+		<Unit filename="paxmsg.cpp" />
+		<Unit filename="paxmsg.d" />
+		<Unit filename="paxmsg.h" />
+		<Unit filename="paxmsg.o" />
+		<Unit filename="paxobj.h" />
+		<Unit filename="paxos.cbp" />
+		<Unit filename="paxos_exec.cpp" />
+		<Unit filename="paxos_exec.d" />
+		<Unit filename="paxos_exec.o" />
+		<Unit filename="paxos_print.cpp" />
+		<Unit filename="paxos_print.d" />
+		<Unit filename="paxos_print.o" />
+		<Unit filename="paxos_vc.cpp" />
+		<Unit filename="paxos_vc.d" />
+		<Unit filename="paxos_vc.o" />
+		<Unit filename="paxserver.cpp" />
+		<Unit filename="paxserver.d" />
+		<Unit filename="paxserver.h" />
+		<Unit filename="paxserver.o" />
+		<Unit filename="paxtypes.h" />
+		<Unit filename="run.sh" />
+		<Unit filename="t.cpp" />
+		<Unit filename="version.cpp" />
+		<Unit filename="version.h" />
+		<Unit filename="word_vec_pax.cpp" />
+		<Unit filename="word_vec_pax.d" />
+		<Unit filename="word_vec_pax.h" />
+		<Unit filename="word_vec_pax.o" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
